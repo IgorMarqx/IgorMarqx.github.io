@@ -10,7 +10,7 @@
 #body-gradient{
     display: block;
     width: 100%;
-    height: 15vh;
+    height: 23vh;
     background: #000;
 }
 
@@ -571,6 +571,18 @@
 .card-3:hover .arrow{
     transform: rotate(0);
 }
+
+.link-card{
+    text-decoration: none;
+    color: #b701ff;
+    transition: all .9s;
+}
+
+.link-card:hover{
+    text-decoration: underline;
+    color: #fff;
+    transition: all .9s;
+}
 /* CARDS */
 
 /* RODAPE */
@@ -578,7 +590,7 @@
    /* border: 1px solid red; */
    display: flex;
    width: 100%;
-   height: 25vh;
+    padding-bottom: 2vh;
    justify-content: flex-start;
    align-items: center;
    flex-direction: column;
@@ -736,7 +748,7 @@
     }
 } */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 412px){
     .navbar h4 a{
         display: flex;
         font-size: 1rem;
@@ -900,6 +912,9 @@
 }
 
 @media screen and (max-width: 768px){
+    .fundo-copyr{
+        width: 103%;
+    }
     .card{
         background-image: linear-gradient(#161616, #161616);
         overflow: hidden;
