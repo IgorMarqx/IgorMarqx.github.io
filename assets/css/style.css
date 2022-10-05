@@ -22,7 +22,7 @@
 }
 /* ISNTA */
 #insta{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #ffffff;
     padding: 0 1vh;
 }
@@ -34,57 +34,6 @@
 #insta{
     transition: color .5s;
 }
-/* ISNTA */
-
-/* GIT */
-#git{
-    font-size: 1.5rem;
-    color: #ffffff;
-    padding: 0 1vh;
-}
-
-#git:hover{
-    color: #3c78e7;
-}
-
-#git{
-    transition: color .5s;
-}
-/* GIT */
-
-
-/* LINKEDIN */
-#linkedin{
-    font-size: 1.5rem;
-    color: #ffffff;
-    padding: 0 1vh;
-}
-
-#linkedin:hover{
-    color:#3c78e7;
-}
-
-#linkedin{
-    transition: color .5s;
-}
-/* LINKEDIN */
-
-/* EMAIL */
-#email{
-    font-size: 1.5rem;
-    color: #ffffff;
-    padding: 0 1vh;
-}
-
-#email:hover{
-    color:#3c78e7;
-}
-
-#email{
-    transition: color .5s;
-}
-/* EMAIL */
-
 /* ICONS */
 .cabecalho{
     width: 100%;
@@ -629,7 +578,7 @@
    /* border: 1px solid red; */
    display: flex;
    width: 100%;
-   height: 100%;
+   height: 25vh;
    justify-content: flex-start;
    align-items: center;
    flex-direction: column;
@@ -660,6 +609,31 @@
 
 .contato h4 a{
     transition: color .5s ease-in-out;
+}
+
+.email h4{
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 2vh;
+}
+
+.fundo-copyr{
+    background: linear-gradient(45deg, #0a0a0a, #2a013f, #0a0a0a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.copyr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:1vh ;
+}
+
+.copyr p{
+    align-items: center;
+    color: #fff;
 }
 /* RODAPE */
 
